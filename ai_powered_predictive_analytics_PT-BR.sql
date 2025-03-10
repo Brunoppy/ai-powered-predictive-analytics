@@ -1,4 +1,4 @@
--- Criando tabela para armazenar dados históricos de negócios
+-- Criando tabela para armazenar dados históricos de negócios 
 CREATE TABLE dados_historicos (
     id SERIAL PRIMARY KEY,
     data_hora TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
