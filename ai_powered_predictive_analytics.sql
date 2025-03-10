@@ -1,4 +1,4 @@
--- Creating table for historical business data
+-- Creating table for historical business data 
 CREATE TABLE historical_data (
     id SERIAL PRIMARY KEY,
     timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
